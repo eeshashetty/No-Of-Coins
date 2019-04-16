@@ -1,6 +1,5 @@
 import imutils
 import cv2
-import argparse
 
 image=cv2.imread("c2.jpg")
 gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
